@@ -1,0 +1,4 @@
+Basicamente tienen la misma funcion de contener el contenido principal de la app, 
+con la diferencia de que container por defecto tiene padding automatico en sus borde
+izquierdo y el derecho, en cambo container-fluid no respeta esos margenes de padding
+y su contenido llega al borde de ambas mencionadas

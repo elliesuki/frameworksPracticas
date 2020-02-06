@@ -1,0 +1,5 @@
+1. Es un framework muy similar a bootstrap
+2. Su diseño esta basado en el diseño material usado mayormente en el diseño de app movil
+3. Contiene un paleta de colores mas grande que bootstrap
+4. No usa jquery como framework base
+5. Es creado y diseñado por google

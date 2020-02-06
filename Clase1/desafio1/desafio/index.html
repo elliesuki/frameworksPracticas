@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .container-fluid {
+      color: white;
+    } 
+    .row div {
+      margin-top: 15px;
+    }
+    .inner {
+      text-align: center;
+      font-size: 32px;
+      padding: 80px 4%;
+    }
+    .small-inner {
+      text-align: center;
+      font-size: 24px;
+      padding: 10px 4%;
+    }
+    .blue {
+      background-color: cyan;
+      color: cyan;
+    }
+    .dark-blue {
+      background-color: blue;
+    }
+    .red {
+      background-color: red;
+    }
+    .green {
+      background-color: green;
+    }
+    .purple {
+      background-color: purple;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row row1">
+      <div class="d-none d-sm-block col-md-2 col-sm-2">
+        <div class="small-inner blue"> A </div>
+      </div>
+      <div class="col-md-10 col-sm-10 col-xs-12">
+        <div class="small-inner blue"> B </div>
+      </div>
+    </div>
+    <div class="row row2">
+      <div class="col-md-12">
+        <div class="inner dark-blue">
+          1
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="inner red">
+          2
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div class="inner green">
+          3
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <div class="inner purple">
+          4
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+h1 {
+	text-align: center;
+}
+article{
+	float: left;
+	width: 46%;
+	padding: 1%;
+}
+.imagen{
+	text-align: center;
+}
+img{
+	width: 25%;
+	height: 25%;
+}
+p{
+	text-align: justify;
+}
